@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	
+	<title>Sever Connection</title>
+	
+	</head>
+<body style="background-image: none">
+	<div class="project" style="width: 100%; padding: 10px; box-sizing: border-box;">
+		<button id="go">Perform AJAX</button>
+		<div id="message">
+			M
+		</div>
+	</div>
+	
+	
+	<script type="application/javascript">
+		function onClick(){
+			var request = new XMLHttpRequest();
+			request.onreadystatechange = function (){
+				if (this.readyState == 4 && this.status == 200) {
+					document.getElementByID("message").innerHTML = this.response;
+				}
+			}
+			request.open('GET', 'https://', true);
+			request.send();
+		}
+		
+		document.getElementById("go").addEventListener("click", onclick);
+	</script>
+
+
+
+</body>
+</html>
+
+
+

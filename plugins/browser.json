@@ -1,0 +1,76 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-device-orientation": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-media": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-vibration": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "uq.edu.read"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "uq.edu.read"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "uq.edu.read"
+        }
+    }
+}

@@ -1,0 +1,63 @@
+
+body{
+	font-family: Helvetica, sans-serif;
+	background: black;
+	color:white;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	}
+
+	a{
+	color:white;
+	text-decoration:none;
+	}
+	
+nav {
+	display: inline;
+	position:fixed;
+    top:0px;
+	width:100%;
+	text-align: center;
+	align:center;
+	background-color:black;
+	height:110px;
+}
+
+#harry-logo{
+	float:left;
+}
+
+nav {
+	float:left
+	overflow:hidden;
+	background-color:black;
+	width:100%;
+}
+.navBar a{
+	display:inline;
+	text-align:center;
+	padding:20px;
+	padding-left:20px;
+	padding-right:20px;
+	text-decoration:none;
+	font-size:20px;
+}
+.navBar a:hover{
+	background-color:#555555;
+}
+.navBar a:active{
+	background-color:#D8D8D8;
+}
+section{
+	text-align: center;
+	font-size:40px;
+}
+
+footer{
+	padding-top:300px;
+	padding-bottom:30px;
+}
+
+	
